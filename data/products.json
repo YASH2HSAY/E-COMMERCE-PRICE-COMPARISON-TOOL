@@ -1,0 +1,21 @@
+[
+  {
+    "name": "iPhone 15",
+    "amazon": "₹79,999",
+    "flipkart": "₹78,499",
+    "myntra": "N/A"
+  },
+  {
+    "name": "Samsung Galaxy S23",
+    "amazon": "₹74,999",
+    "flipkart": "₹73,499",
+    "myntra": "N/A"
+  },
+  {
+    "name": "Nike Shoes",
+    "amazon": "₹4,999",
+    "flipkart": "₹4,749",
+    "myntra": "₹4,899"
+  }
+]
+
