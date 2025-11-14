@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Price Comparison Tool</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="logo">🛒 Price Comparison Tool</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <button id="themeToggle">🌗</button>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <section class="hero">
+      <h1>Find the Best Deals Across All Major Stores</h1>
+      <p>Compare prices instantly from Amazon, Flipkart, and Myntra.</p>
+      <div class="search-box">
+        <input type="text" id="searchBox" placeholder="Search for a product..." />
+        <button id="searchBtn">Search</button>
+      </div>
+    </section>
+
+    <!-- RESULTS SECTION -->
+    <div id="results"></div>
+
+    <!-- TRENDING SECTION -->
+    <section class="trending">
+      <h2>🔥 Trending Deals</h2>
+      <div class="trend-container">
+
+        <div class="trend-card">
+          <img src="https://m.media-amazon.com/images/I/71kZfQA-Y7L._SL1500_.jpg" alt="iPhone 15">
+          <h3>iPhone 15</h3>
+          <p>Get the latest iPhone with A16 Bionic chip and 48MP camera.</p>
+          <div class="links">
+            <a href="https://www.amazon.in/dp/B0CHX3LWFF" target="_blank">Buy on Amazon</a>
+            <a href="https://www.flipkart.com/apple-iphone-15" target="_blank">Buy on Flipkart</a>
+          </div>
+        </div>
+
+        <div class="trend-card">
+          <img src="https://m.media-amazon.com/images/I/61-fZ3-NCwL._SX679_.jpg" alt="Boat Rockerz 550 Headphones" />
+          <h3>boAt Airdopes 161</h3>
+          <p>Powerful bass and 40-hour playtime at a budget-friendly price.</p>
+          <div class="links">
+            <a href="https://www.amazon.in/dp/B09N3XMZ5F" target="_blank">Buy on Amazon</a>
+            <a href="https://www.flipkart.com/boat-airdopes-161" target="_blank">Buy on Flipkart</a>
+          </div>
+        </div>
+
+        <div class="trend-card">
+          <img src="https://m.media-amazon.com/images/I/61LtuGzXeaL._SL1500_.jpg" alt="Samsung Galaxy Watch 6">
+          <h3>Samsung Galaxy Watch 6</h3>
+          <p>Track your fitness goals with premium design and AMOLED display.</p>
+          <div class="links">
+            <a href="https://www.amazon.in/dp/B0C7S1MZV6" target="_blank">Buy on Amazon</a>
+            <a href="https://www.flipkart.com/samsung-watch-6" target="_blank">Buy on Flipkart</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Price Comparison Tool | All Rights Reserved</p>
+    <p>Contact: <a href="mailto:support@pricecompare.com">support@pricecompare.com</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
